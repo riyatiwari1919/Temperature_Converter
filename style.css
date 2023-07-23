@@ -1,0 +1,124 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(98, 248, 253);
+    text-shadow: 3px 0px pink;
+}
+.temperature-box{
+    /*background-image: url("images/2179.jpg");*/
+    background-color: white;
+    width: 95%;
+    margin: 60px auto 0 auto;
+    
+}
+.temperature-list{
+    list-style: none;
+    display: flex;
+    padding: 70px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.temperature-list li{
+    margin: 30px 0;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 30px; 
+}
+.temp-heading{
+    text-align: center;
+    font-size: 2rem;
+}
+.input{
+    margin: 40px 0 20px 0;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px;
+}
+#farenhite-box{
+    background-color: rgb(248, 177, 213);
+}
+#celsius-box{
+    background-color: rgb(112, 213, 216);
+}
+#kelvin-box{
+    background-color: rgb(207, 159, 230);
+}
+/*@media only screen and (max-width:1023px){
+    .temperature-list{
+        padding: 80px 17px;
+    }
+    .temperature-list li{
+        padding: 15px;
+    }
+    .input{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width:1000px){
+    .temperature-list{
+        padding: 100px 150px;
+        display: block;
+    }
+    .temperature-list li{
+        margin: 0px 20px 70px 20px;
+        padding: 30px;
+    }
+    .input{
+        margin: 60px 0px 20px 110px;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:900px){
+    .input{
+        margin: 60px 0px 20px 70px;
+    }
+}
+@media only screen and (max-width:800px){
+    .input{
+        margin: 60px 0px 20px 25px;
+    }
+}
+@media only screen and (max-width:750px){
+    .temperature-list{
+        padding: 100px;
+    }
+    .input{
+        margin: 60px 0px 20px 50px;
+    }
+}
+@media only screen and (max-width:666px){
+    .temperature-list{
+        padding: 100px 50px;
+    }
+    .input{
+        margin: 60px 0px 20px 60px;
+    }
+}
+@media only screen and (max-width:565px){
+    .temperature-list{
+        padding: 100px 10px;
+    }
+    .input{
+        margin: 60px 0px 20px 55px;
+    }
+}
+@media only screen and (max-width:480px){
+    .input{
+        margin: 60px 0px 20px 40px;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:400px){
+    .input{
+        margin: 60px 0px 20px 5px;
+        font-size: 1rem;
+    }
+}*/
